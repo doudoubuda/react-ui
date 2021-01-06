@@ -5,7 +5,7 @@ module.exports = {
   entry: './lib/index.tsx',
   output: {
     path: path.resolve(__dirname, 'dist/lib'),
-    library: 'gulu-ui',
+    library: 'gulu-ui', 
     libraryTarget: 'umd'
   },
   module: {
