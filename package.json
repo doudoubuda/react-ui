@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/doudoubuda/react-ui/issues"
   },
-  "homepage": "https://github.com/doudoubuda/react-ui#readme"
+  "homepage": "https://github.com/doudoubuda/react-ui#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^4.1.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  }
 }
