@@ -1,4 +1,5 @@
 const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -12,5 +13,9 @@ module.exports = {
     rules: [
       { test: /\.tsx?$/, use: 'awesome-typescript-loader' }
     ]
-  }
+  },
+  plugins: [...base.plugins, new HtmlWebpackPlugin({
+    title: 'GULU - React',
+    template: 'index.html'
+  })],
 }
